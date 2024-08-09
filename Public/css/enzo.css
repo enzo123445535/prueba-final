@@ -1,0 +1,130 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+    color: #333; 
+}
+
+
+header .logo {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #333; /* Dark background for the navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #e30513 !important; /* River Plate red on hover */
+}
+
+.nav-item.active .nav-link {
+    color: #e30513 !important; /* Active link color */
+}
+
+/* Main content styles */
+main {
+    padding: 2rem 0;
+}
+
+h1.text-center {
+    color: #e30513; /* River Plate red for main titles */
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+/* Card styles for the news section */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #e30513; 
+}
+
+.btn-primary {
+    background-color: #e30513;
+    border-color: #e30513;
+}
+
+.btn-primary:hover {
+    background-color: #d00412;
+    border-color: #d00412;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 0.5rem;
+}
+
+footer a:hover {
+    color: #e30513; 
+}
+
+.footer-logo {
+    width: 10px;
+    margin-top: 1rem;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 2rem;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/Public/Img/40786.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.enzo2 {
+    color: white;
+}
+
+.container {
+    background-color: red;
+}
